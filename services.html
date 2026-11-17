@@ -34,11 +34,25 @@
 @media(max-width:1000px){.services-page .sv-grid{grid-template-columns:1fr 1fr}}
 @media(max-width:700px){.services-page .sv-hero{padding:70px 0 30px}.services-page .sv-grid{grid-template-columns:1fr}.services-page .sv-card{padding:36px 28px}.services-page .sv-quality .in{grid-template-columns:1fr;gap:30px}.services-page .sv-quality img{max-width:100%}.services-page .sv-help .in{flex-direction:column;align-items:flex-start}.services-page .sv-help{padding:70px 0}}
 </style>
+<script>
+if (location.pathname.endsWith('.html')) {
+  history.replaceState(null, '', (location.pathname.replace(/(index)?\.html$/, '') || '/') + location.search + location.hash);
+}
+</script>
 </head><body class="services-page">
-<div class="topbar"><div class="wrap"><span><i class="fa-solid fa-map-pin"></i>Access Building - Rubaga Rd</span><a href="tel:+256740919395"><i class="fa-solid fa-phone"></i>+256 740919395</a></div></div>
-<header class="site-header"><div class="wrap"><a class="logo" href="index.html" aria-label="Almasoud Investments Limited"><img src="assets/logo.png" width="300" height="90" alt=""></a>
+<div class="topbar"><div class="wrap"><span><i class="fa-solid fa-map-pin"></i>Access Building - Rubaga Rd</span><a href="tel:+256700664967"><i class="fa-solid fa-phone"></i>+256 700 664967</a></div></div>
+<header class="site-header"><div class="wrap"><a class="logo" href="/" aria-label="Almasoud Investments Limited"><img src="assets/logo.png" width="300" height="90" alt=""></a>
 <button class="burger" aria-label="Menu" aria-expanded="false"><i></i><i></i><i></i></button>
-<nav><ul><li><a href="index.html">Home</a></li><li><a href="about-us.html">About Us</a></li><li><a href="services.html" class=active>Services</a></li><li><a href="products.html">Products</a></li><li><a href="contact-us.html">Contact Us</a></li></ul></nav></div></header>
+<nav>
+	<ul>
+
+		<li><a href="/" >Home</a></li>
+<li><a href="/about-us" >About Us</a></li>
+<li><a href="/services" class=active>Services</a></li>
+<li><a href="/products" >Products</a></li>
+<li><a href="/contact-us" >Contact Us</a></li>
+
+	</ul></nav></div></header>
 <main>
 <section class="sv-hero"><div class="wrap"><h1>Connecting East Africa&rsquo;s Fresh Produce to Global Markets</h1><p>We deliver high-quality fresh fruits and vegetables sourced from trusted farmers and suppliers, providing reliable produce solutions for local and international markets.</p></div></section>
 <section class="sv-cards"><div class="sv-grid"><div class="sv-card"><div class="sv-ico" style="--bg:#0c6137;--sh:#ffd0d0"><span><i class="fa-solid fa-apple-whole"></i></span></div><h3>Fruit &amp; Vegetable Exports</h3><p>We handle all forms of supply small, medium, and complex of fresh fruits and vegetables, from preliminary negotiations and contract formalities through to full contract execution, delivered to our clients&rsquo; satisfaction.</p></div><div class="sv-card"><div class="sv-ico" style="--bg:#96c11f;--sh:#cfe3ff"><span><i class="fa-solid fa-wheat-awn"></i></span></div><h3>Other Food Supply</h3><p>We supply agricultural produce from across East Africa on special request or order, including. Animal produce: Fresh meat, mutton, goat meat, ghee, milk, eggs Live animals &amp; fish: Fresh fish, silverfish, Nile perch, cows, goats, sheep, hens, rabbits, ducks</p></div><div class="sv-card"><div class="sv-ico" style="--bg:#19bbf2;--sh:#d3f5e6"><span><i class="fa-solid fa-handshake"></i></span></div><h3>Global Networking</h3><p>Our technical team creates valuable synergies to manage quality requirements effectively, using specialized IT platforms and technology to standardize and harmonize processes drawing on local and regional expertise to serve both producers and markets.</p></div><div class="sv-card"><div class="sv-ico" style="--bg:#19bbf2;--sh:#e0d6ff"><span><i class="fa-solid fa-file-import"></i></span></div><h3>Imports</h3><p>As a group of companies, we import a range of merchandise based on client demand including rice, sugar, dates. We work between buyers and sellers to ensure fair, well-documented agreements for all parties.</p></div><div class="sv-card"><div class="sv-ico" style="--bg:#96c11f;--sh:#ffd6ee"><span><i class="fa-solid fa-building"></i></span></div><h3>Real Estates</h3><p>Our professional agents work with property owners and clients on market conditions, pricing, mortgages, and legal requirements helping both buyers and sellers navigate the right terms for their needs and financial position.</p></div><div class="sv-card"><div class="sv-ico" style="--bg:#0c6137;--sh:#ffe4bd"><span><i class="fa-solid fa-dog"></i></span></div><h3>Tourism</h3><p>Uganda the Pearl of Africa offers some of the continent&rsquo;s finest tourism experiences. We also extend our tourism services to neighboring countries, including Tanzania, Kenya, and gorilla trekking in Rwanda.</p></div></div></section>
@@ -48,7 +62,7 @@
 <div><h3>About Us</h3><p>We specialized in the import and export of fresh produce and food products, alongside construction</p>
 <div class="social"><a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a><a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a><a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a><a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a></div></div>
 <div><h3>Services</h3><ul><li>Fruit &amp; Vegetable Exports</li><li>Other Food Supply</li><li>Global Quality Networking</li><li>Construction &amp; Bidding</li></ul></div>
-<div><h3>Contact Us</h3><ul><li><a href="tel:+256740919395">+256 740919395</a></li><li><a href="mailto:info@almasoudinvest.com">info@almasoudinvest.com</a></li><li>Access Building, Rubaga Road - Room C06</li></ul></div>
+<div><h3>Contact Us</h3><ul><li><a href="tel:+256700664967">+256 700 664967</a></li><li><a href="mailto:info@almasoudinvest.com">info@almasoudinvest.com</a></li><li>Access Building, Rubaga Road - Room C06</li></ul></div>
 <div><h3>Join Us</h3><form class="join" onsubmit="return false"><input type="email" placeholder="Email Address" aria-label="Email Address"><button>Send</button></form><p><strong>Get In Touch.</strong> Email or call us for a quotation</p></div>
 </div><div class="rule"></div></div>
 <div class="copy"><div class="wrap2"><span>&copy; 2026 Almasoud. All Rights Reserved.</span><span><a href="#">Terms of Use</a> I <a href="#">Privacy Policy</a></span></div></div>
